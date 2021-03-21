@@ -18,15 +18,15 @@ FB              : https://fb.me/WahyudiSGC
 </pre>
 <h2>MIKROTIK SCRIPT ROUTEROS DATABASE</h2>
 <p><a target="_blank"  href="https://wahyudien.github.io/mikrotik">Complete Mikrotik RouterOS Script Database</a> - We try to collect all the scripts found on the internet and combine them in one DataBase, Enjoy the most complete script to make it easier for you to learn Mikrotik RouterOS scripts!</p>
-<img src=https://user-images.githubusercontent.com/42666125/111253785-55c8fc80-8646-11eb-934d-a213a0715e30.png>
+<img src=https://user-images.githubusercontent.com/-.png>
 
 <h2>VPN ROUTING PORT GAME SCRIPT GENERATOR</h2>
 <p><a target="_blank"  href="https://wahyudien.github.io/vpn-game-generator.html">VPN Routing Port Game Script Generator</a> - Static Routing Vpn Game Script Generator or Script Maker (Port Game Routing Method) </p>
-<img src="https://user-images.githubusercontent.com/42666125/111255425-9ece8000-8649-11eb-839c-21f25e838195.png">
+<img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>VPN ROUTING IP ADDRESS GAMES SCRIPT GENERATOR</h2>
 <p><a target="_blank"  href="https://wahyudien.github.io/vpn-game-generator2.html">VPN Routing IP Address Games Script Generator</a> - Static Routing Vpn Game Script Generator or Script Maker (Ip Address Game Routing Method)</p>
-<img src="https://user-images.githubusercontent.com/42666125/111255058-eef91280-8648-11eb-8b6c-824e45053e90.png">
+<img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>LOAD BALANCING ECMP SCRIPT GENERATOR</h2>
 <p><a target="_blank"  href="https://wahyudien.github.io/ecmp.html">Load Balancing ECMP Script Generator</a> - Load Balancing Ecmp (Equal Cost Multi Path) Script Generator or Script Maker For Mikrotik Routeros</p>
