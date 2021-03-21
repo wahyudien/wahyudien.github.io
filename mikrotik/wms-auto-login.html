@@ -1,0 +1,42 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset='utf-8'/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auto Login WMS or wifi.id - Mikrotik Script RouterOS</title>
+<meta content='Auto Login WMS  or wifi.id - Mikrotik Script' name='description'/>
+<meta content='mikrotik script, routeros script, script database, script, mikrotik, routeros, router, hotspot, rtrwnet' name='keywords'/>
+<meta content='index, follow, noodp' name='robots'/>
+<link rel="stylesheet" href="//wahyudien.github.io/mikrotik/stytes.css">
+<link rel="stylesheet" href="//wahyudien.github.io/mikrotik/highlightjs/styles/github.css">
+<script src="//wahyudien.github.io/mikrotik/highlightjs/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>  
+</head>
+<body>
+<h1>Auto Login WMS or wifi.id - Mikrotik Script RouterOS</h1>
+
+<pre>
+How to auto login wifi.id or WMS Indihome
+
+<code class="routeros">:if ([/ping address=1.1.1.1 count=5] = 0) do={
+/ip dns cache flush
+/ip dhcp-client release [find interface=WLAN-INTERFACE]
+delay 5
+log error ("WMS Down")
+:local ip [/ip address get [/ip address find interface="WLAN-INTERFACE"] address];
+:local mac [/interface wireless get [ find default-name="WLAN-INTERFACE" ] mac-address];
+:local ip [put [:pick $ip 0 [:find $ip "/"]]];
+/tool fetch http-method=post http-data="username=username@freeMS&password=password" url=("https://welcome2.wifi.id/wms/?gw_id=GWID&client_mac=xxxxxxxxxxxx&wlan=xxxxxxxxxxxxxxxxxx:SSID%20WMS") keep-result=no;
+} else {
+log warning ("WMS UP")
+}</code>
+</pre>
+<br>
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwahyudien.github.io%2F&count_bg=%23C83D3D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hits"/>
+<br><br>
+<div id="hidelink"></div>
+<script>var url_string = window.location;if (window.top != window.self){document.getElementById("hidelink").innerHTML = "";} else {window.location.href = "https://wahyudien.github.io/mikrotik/?url=" + url_string; document.getElementById("hidelink").innerHTML = "<a href='https://wahyudien.github.io/mikrotik/'><- Back To Home</a>";}</script>
+<br><br>
+</body>
+</html>
