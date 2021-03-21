@@ -6,13 +6,13 @@
 |  __  (| |   | |/ /\ \| |   | |/ /\ \| |   | |  ___) | |      
 | |__)  ) |___| | |__| | |   | | |__| | |   | | |_____| |_____ 
 |______/ \______|______|_|   |_|______|_|   |_|_______)\______)
-Protected by BuanaNET SECURE!
+Protected by SGCnetwork SECURE!
 
 /* --------------------------------------------------
-Created By      : Agus Ramadhani (BuanaNet Secure!)
-Site            : http://www.o-om.com 
+Created By      : - (SGCnetwork Secure!)
+Site            : - 
 Github Pages    : https://wahyudien.github.io
-FB              : https://fb.me/buananet.pbun	
+FB              : https://fb.me/WahyudiSGC	
 -------------------------------------------------- /*
 </pre>
 <h2>MIKROTIK SCRIPT ROUTEROS DATABASE</h2>

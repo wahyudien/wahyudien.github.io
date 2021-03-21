@@ -9,17 +9,17 @@
 	<meta content='script generator, mikrotik, router, winbox, termimal, rsc, script, hotspot, wireless, rtrwnet' name='keywords' />
 	<meta content='index, follow, noodp' name='robots' />
 	<link rel="shortcut icon" href="https://www.o-om.com/favicon.ico" type="image/x-icon">
-	<script data-ad-client="ca-pub-9740800920365268" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script data-ad-client="ca-pub-9131051547905398" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<style>
 /* --------------------------------------------
 ################################################
 # LOAD BALANCING ECMP SCRIPT GENERATOR
 # Date/Time : 11/8/2020, 12:10:14 AM
-# Designer  : Agus Ramadhani / BuanaNET
+# Designer  : - / SGCnetwork
 # Version   : v1.0 Beta
 # Github	: wahyudien.Github.io
-# Site      : http://www.o-om.com
-# Sosmed    : https://fb.me/buananet.pbun	
+# Site      : -
+# Sosmed    : https://fb.me/WahyudiSGC	
 ################################################
 ----------------------------------------------- */  
 *{-webkit-transition: all .3s ease-in;-moz-transition: all .3s ease-in;-ms-transition: all .3s ease-in;transition: all .3s ease-in;}
@@ -531,7 +531,7 @@ border-color: #8c0615;
 			<!-- MIKROTIK SCRIPT DB3 -->
 			<ins class="adsbygoogle"
 			style="display:inline-block;width:728px;height:90px"
-			data-ad-client="ca-pub-9740800920365268"
+			data-ad-client="ca-pub-9131051547905398"
 			data-ad-slot="4637807296"></ins>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
@@ -543,63 +543,63 @@ border-color: #8c0615;
                      ################################################<br>
                      # LOAD BALANCING ECMP SCRIPT GENERATOR<br>
                      # Date/Time: <span id="tanggalwaktu"></span>
-							<br># https://fb.me/buananet.pbun
+							<br># https://fb.me/WahyudiSGC
 							<br># Load Balancing <span id="vpn-list-text-info" style="font-weight:bold;text-transform: uppercase">ECMP (Equal Cost Multi Path)</span>
 							<br>################################################
 							<br>
 							<br>
 							</span>	<b>/ip firewall nat</b>
-							<br>	<span id="wan1-nat">add chain=srcnat out-interface="<span id="wan1-nat-text"></span>" action=masquerade comment="LB By BNT"
+							<br>	<span id="wan1-nat">add chain=srcnat out-interface="<span id="wan1-nat-text"></span>" action=masquerade comment="LB By SGC"
 							<br>
-							</span>	<span id="wan2-nat">add chain=srcnat out-interface="<span id="wan2-nat-text"></span>" action=masquerade comment="LB By BNT"
+							</span>	<span id="wan2-nat">add chain=srcnat out-interface="<span id="wan2-nat-text"></span>" action=masquerade comment="LB By SGC"
 							<br>
-							</span>	<span id="wan3-nat" style="display:none">add chain=srcnat out-interface="<span id="wan3-nat-text"></span>" distance=2 action=masquerade comment="LB By BNT"
+							</span>	<span id="wan3-nat" style="display:none">add chain=srcnat out-interface="<span id="wan3-nat-text"></span>" distance=2 action=masquerade comment="LB By SGC"
 							<br>
-							</span>	<span id="wan4-nat" style="display:none">add chain=srcnat out-interface="<span id="wan4-nat-text"></span>" action=masquerade comment="LB By BNT"
+							</span>	<span id="wan4-nat" style="display:none">add chain=srcnat out-interface="<span id="wan4-nat-text"></span>" action=masquerade comment="LB By SGC"
 							<br>
-							</span>	<span id="wan5-nat" style="display:none">add chain=srcnat out-interface="<span id="wan5-nat-text"></span>" action=masquerade comment="LB By BNT"
+							</span>	<span id="wan5-nat" style="display:none">add chain=srcnat out-interface="<span id="wan5-nat-text"></span>" action=masquerade comment="LB By SGC"
 							<br>
-							</span>	<span id="wan6-nat" style="display:none">add chain=srcnat out-interface="<span id="wan6-nat-text"></span>" action=masquerade comment="LB By BNT"
+							</span>	<span id="wan6-nat" style="display:none">add chain=srcnat out-interface="<span id="wan6-nat-text"></span>" action=masquerade comment="LB By SGC"
 							<br>
 							</span>	<b>/ip route</b>
-							<br>	<span id="nth-route">add check-gateway=ping distance=1 gateway="<span id="wan1-nth-route-text"></span>,<span id="wan2-nth-route-text"></span>,<span id="wan3-nth-route-text"></span>,<span id="wan4-nth-route-text"></span>,<span id="wan5-nth-route-text"></span>,<span id="wan6-nth-route-text"></span>" comment="LB By BNT"
+							<br>	<span id="nth-route">add check-gateway=ping distance=1 gateway="<span id="wan1-nth-route-text"></span>,<span id="wan2-nth-route-text"></span>,<span id="wan3-nth-route-text"></span>,<span id="wan4-nth-route-text"></span>,<span id="wan5-nth-route-text"></span>,<span id="wan6-nth-route-text"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan1-route">add check-gateway=ping distance=1 gateway="<span id="wan1-route-text"></span>" routing-mark="<span id="wan1-route-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan1-route">add check-gateway=ping distance=1 gateway="<span id="wan1-route-text"></span>" routing-mark="<span id="wan1-route-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan2-route">add check-gateway=ping distance=1 gateway="<span id="wan2-route-text"></span>" routing-mark="<span id="wan2-route-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan2-route">add check-gateway=ping distance=1 gateway="<span id="wan2-route-text"></span>" routing-mark="<span id="wan2-route-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan3-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan3-route-text"></span>" routing-mark="<span id="wan3-route-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan3-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan3-route-text"></span>" routing-mark="<span id="wan3-route-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan4-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan4-route-text"></span>" routing-mark="<span id="wan4-route-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan4-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan4-route-text"></span>" routing-mark="<span id="wan4-route-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan5-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan5-route-text"></span>" routing-mark="<span id="wan5-route-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan5-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan5-route-text"></span>" routing-mark="<span id="wan5-route-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan6-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan6-route-text"></span>" routing-mark="<span id="wan6-route-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan6-route" style="display:none">add check-gateway=ping distance=1 gateway="<span id="wan6-route-text"></span>" routing-mark="<span id="wan6-route-text-r"></span>" comment="LB By SGC"
 							<br>
 							</span>	<b>/ip firewall mangle</b>
-							<br>	<span id="wan1-mangle-input">add action=mark-connection chain=input in-interface="<span id="wan1-mangle-input-text"></span>" new-connection-mark="<span id="wan1-mangle-input-text-r"></span>" comment="LB By BNT"
+							<br>	<span id="wan1-mangle-input">add action=mark-connection chain=input in-interface="<span id="wan1-mangle-input-text"></span>" new-connection-mark="<span id="wan1-mangle-input-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan2-mangle-input">add action=mark-connection chain=input in-interface="<span id="wan2-mangle-input-text"></span>" new-connection-mark="<span id="wan2-mangle-input-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan2-mangle-input">add action=mark-connection chain=input in-interface="<span id="wan2-mangle-input-text"></span>" new-connection-mark="<span id="wan2-mangle-input-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan3-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan3-mangle-input-text"></span>" new-connection-mark="<span id="wan3-mangle-input-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan3-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan3-mangle-input-text"></span>" new-connection-mark="<span id="wan3-mangle-input-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan4-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan4-mangle-input-text"></span>" new-connection-mark="<span id="wan4-mangle-input-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan4-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan4-mangle-input-text"></span>" new-connection-mark="<span id="wan4-mangle-input-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan5-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan5-mangle-input-text"></span>" new-connection-mark="<span id="wan5-mangle-input-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan5-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan5-mangle-input-text"></span>" new-connection-mark="<span id="wan5-mangle-input-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan6-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan6-mangle-input-text"></span>" new-connection-mark="<span id="wan6-mangle-input-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan6-mangle-input" style="display:none">add action=mark-connection chain=input in-interface="<span id="wan6-mangle-input-text"></span>" new-connection-mark="<span id="wan6-mangle-input-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan1-mangle-output">add action=mark-routing chain=output connection-mark="<span id="wan1-mangle-output-text"></span>" new-routing-mark="<span id="wan1-mangle-output-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan1-mangle-output">add action=mark-routing chain=output connection-mark="<span id="wan1-mangle-output-text"></span>" new-routing-mark="<span id="wan1-mangle-output-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan2-mangle-output">add action=mark-routing chain=output connection-mark="<span id="wan2-mangle-output-text"></span>" new-routing-mark="<span id="wan2-mangle-output-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan2-mangle-output">add action=mark-routing chain=output connection-mark="<span id="wan2-mangle-output-text"></span>" new-routing-mark="<span id="wan2-mangle-output-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan3-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan3-mangle-output-text"></span>" new-routing-mark="<span id="wan3-mangle-output-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan3-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan3-mangle-output-text"></span>" new-routing-mark="<span id="wan3-mangle-output-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan4-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan4-mangle-output-text"></span>" new-routing-mark="<span id="wan4-mangle-output-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan4-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan4-mangle-output-text"></span>" new-routing-mark="<span id="wan4-mangle-output-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan5-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan5-mangle-output-text"></span>" new-routing-mark="<span id="wan5-mangle-output-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan5-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan5-mangle-output-text"></span>" new-routing-mark="<span id="wan5-mangle-output-text-r"></span>" comment="LB By SGC"
 							<br>
-							</span>	<span id="wan6-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan6-mangle-output-text"></span>" new-routing-mark="<span id="wan6-mangle-output-text-r"></span>" comment="LB By BNT"
+							</span>	<span id="wan6-mangle-output" style="display:none">add action=mark-routing chain=output connection-mark="<span id="wan6-mangle-output-text"></span>" new-routing-mark="<span id="wan6-mangle-output-text-r"></span>" comment="LB By SGC"
 							<br>
 							</span>
 						</td>
@@ -669,9 +669,9 @@ border-color: #8c0615;
 			</div>
 			
 		<span style="color:#a8328b"><b># This script for remove all script from this Generator</b></span>
-			<br>/ip firewall nat remove [find comment="LB By BNT"]
-			<br>/ip route remove [find comment="LB By BNT"]
-			<br>/ip firewall mangle remove [find comment="LB By BNT"]
+			<br>/ip firewall nat remove [find comment="LB By SGC"]
+			<br>/ip route remove [find comment="LB By SGC"]
+			<br>/ip firewall mangle remove [find comment="LB By SGC"]
 		</div>
 	</div>
 	<script>
