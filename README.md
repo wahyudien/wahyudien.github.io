@@ -21,15 +21,15 @@ FB              : https://fb.me/WahyudiSGC
 <img src=https://user-images.githubusercontent.com/-.png>
 
 <h2>VPN ROUTING PORT GAME SCRIPT GENERATOR</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/vpn-game-generator.html">VPN Routing Port Game Script Generator</a> - Static Routing Vpn Game Script Generator or Script Maker (Port Game Routing Method) </p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/vpn-game-generator.html">VPN Routing Port Game Script Generator</a> - Static Routing Vpn Game Script Generator or Script Maker (Port Game Routing Method) </p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>VPN ROUTING IP ADDRESS GAMES SCRIPT GENERATOR</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/vpn-game-generator2.html">VPN Routing IP Address Games Script Generator</a> - Static Routing Vpn Game Script Generator or Script Maker (Ip Address Game Routing Method)</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/vpn-game-generator2.html">VPN Routing IP Address Games Script Generator</a> - Static Routing Vpn Game Script Generator or Script Maker (Ip Address Game Routing Method)</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>LOAD BALANCING ECMP SCRIPT GENERATOR</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/ecmp.html">Load Balancing ECMP Script Generator</a> - Load Balancing Ecmp (Equal Cost Multi Path) Script Generator or Script Maker For Mikrotik Routeros</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/ecmp.html">Load Balancing ECMP Script Generator</a> - Load Balancing Ecmp (Equal Cost Multi Path) Script Generator or Script Maker For Mikrotik Routeros</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>LOAD BALANCING PCC SCRIPT GENERATOR</h2>
@@ -37,27 +37,27 @@ FB              : https://fb.me/WahyudiSGC
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>SIMPLE QUEUE SCRIPT GENERATOR FOR MIKROTIK + TOCKEN BUCKET</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/simple-queue-generator.html">Simple Queue Script Generator For Mikrotik + Tocken Bucket</a> - Simple Queue Script Generator or Script Maker For Mikrotik Plus Token Bucket - For IP Subnet /24 Only</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/simple-queue-generator.html">Simple Queue Script Generator For Mikrotik + Tocken Bucket</a> - Simple Queue Script Generator or Script Maker For Mikrotik Plus Token Bucket - For IP Subnet /24 Only</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>SIMPLE QUEUE SCRIPT GENERATOR FOR MIKROTIK + BANDWIDTH SHARED (UPTO)</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/simple-queue-generator-shared.html">Simple Queue Script Generator For Mikrotik + Bandwidth Shared (UpTo)</a> - Simple Queue Script Generator Mikrotik + Bandwidth Shared (Upto) - For IP Subnet /24 Only</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/simple-queue-generator-shared.html">Simple Queue Script Generator For Mikrotik + Bandwidth Shared (UpTo)</a> - Simple Queue Script Generator Mikrotik + Bandwidth Shared (Upto) - For IP Subnet /24 Only</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>QUEUE TREE SCRIPT GENERATOR FOR MIKROTIK + BANDWIDTH SHARED (UPTO)</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/queue-tree-generator-shared.html">Queue Tree Script Generator For Mikrotik + Bandwidth Shared (UpTo)</a> - Queue Tree Script Generator Mikrotik + Bandwidth Shared (Upto) - For IP Subnet /24 Only</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/queue-tree-generator-shared.html">Queue Tree Script Generator For Mikrotik + Bandwidth Shared (UpTo)</a> - Queue Tree Script Generator Mikrotik + Bandwidth Shared (Upto) - For IP Subnet /24 Only</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>REMOTE IP PUBLIC STATIC FOR SECONDARY GATEWAY MIKROTIK</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/remote-ip-public-static.html">Remote IP Public Static For Secondary Gateway Mikrotik</a> - Simple Script how Remote IP Public Static For Secondary Gateway Mikrotik</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/remote-ip-public-static.html">Remote IP Public Static For Secondary Gateway Mikrotik</a> - Simple Script how Remote IP Public Static For Secondary Gateway Mikrotik</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>PORT KNOCKING GENERATOR WITH (PING) ICMP + PACKET SIZE</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/port-knocking-icmp.html">Port Knocking Generator with (ping) ICMP + Packet Size</a> - Mikrotik Port Knocking Generator or Knocking Script Maker With Icmp + Packet Size</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/port-knocking-icmp.html">Port Knocking Generator with (ping) ICMP + Packet Size</a> - Mikrotik Port Knocking Generator or Knocking Script Maker With Icmp + Packet Size</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>LB PCC CALCULATION / LOAD BALANCING PCC CALCULATION</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/pcc-calculation.html">LB PCC Calculation / Load Balancing PCC Calculation</a> - LB PCC (Load Balancing Per Connection Classifier) Calculator</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/pcc-calculation.html">LB PCC Calculation / Load Balancing PCC Calculation</a> - LB PCC (Load Balancing Per Connection Classifier) Calculator</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <br>
