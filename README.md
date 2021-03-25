@@ -33,7 +33,7 @@ FB              : https://fb.me/WahyudiSGC
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>LOAD BALANCING PCC SCRIPT GENERATOR</h2>
-<p><a target="_blank"  href="https://wahyudien.github.io/pcc.html">Load Balancing PCC Script Generator</a> - Lb Pcc / Load Balancing Pcc Script Generator or Script Maker For Mikrotik Routeros</p>
+<p><a target="_blank"  href="https://wahyudien.github.io/mikrotik/pcc.html">Load Balancing PCC Script Generator</a> - Lb Pcc / Load Balancing Pcc Script Generator or Script Maker For Mikrotik Routeros</p>
 <img src="https://user-images.githubusercontent.com/-.png">
 
 <h2>SIMPLE QUEUE SCRIPT GENERATOR FOR MIKROTIK + TOCKEN BUCKET</h2>
