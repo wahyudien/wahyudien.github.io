@@ -1,3 +1,0 @@
-Sitemap: https://wahyudien.github.io/mikrotik/sitemap.xml
-User-agent: *
-allow: /
