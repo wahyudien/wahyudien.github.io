@@ -1,0 +1,8 @@
+/ip dns
+set allow-remote-requests=yes servers=1.1.1.1,1.0.0.1
+
+/ip firewall nat
+add action=dst-nat chain=dstnat comment=Cloudflare dst-port=53,5353 protocol=tcp to-addresses=1.1.1.1 to-ports=53
+add action=dst-nat chain=dstnat comment=Cloudflare dst-port=53,5353 protocol=udp to-addresses=1.1.1.1 to-ports=53
+add action=dst-nat chain=dstnat comment=Cloudflare dst-port=53,5353 protocol=tcp to-addresses=1.0.0.1 to-ports=53
+add action=dst-nat chain=dstnat comment=Cloudflare dst-port=53,5353 protocol=udp to-addresses=1.0.0.1 to-ports=53
