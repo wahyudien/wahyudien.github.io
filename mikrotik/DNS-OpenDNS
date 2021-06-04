@@ -1,0 +1,6 @@
+/ip dns
+set allow-remote-requests=yes servers=208.67.222.222,208.67.220.220
+
+/ip firewall nat
+add chain=dstnat protocol=udp dst-port=53 action=dst-nat to-addresses=208.67.222.222 to-ports=443 comment="OpenDNS"
+add chain=dstnat protocol=udp dst-port=53 action=dst-nat to-addresses=208.67.220.220 to-ports=443 comment="OpenDNS"
